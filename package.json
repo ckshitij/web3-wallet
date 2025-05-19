@@ -1,0 +1,37 @@
+{
+  "name": "web3-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && rollup -c rollup.config.ts --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckshitij/web3-wallet.git"
+  },
+  "keywords": [
+    "web3-wallet",
+    "deploy-contract"
+  ],
+  "author": "Kshitij Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckshitij/web3-wallet/issues"
+  },
+  "homepage": "https://github.com/ckshitij/web3-wallet#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.19",
+    "rollup": "^4.41.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}
