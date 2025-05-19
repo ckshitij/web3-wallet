@@ -2,7 +2,9 @@
   "name": "web3-wallet",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",  
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && rollup -c rollup.config.ts --bundleConfigAsCjs"
